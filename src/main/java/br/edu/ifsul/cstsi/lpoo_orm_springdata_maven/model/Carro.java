@@ -22,7 +22,7 @@ public class Carro {
 
     //Muitos carros podem estar associado a um unico modelo
     @ManyToOne
-    @JoinColumn(name = "modeloCarro_id")
+    @JoinColumn(name = "Modelo_id")
     private ModeloCarro modeloCarro;
 
 
